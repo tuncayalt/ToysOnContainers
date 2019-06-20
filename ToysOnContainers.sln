@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29009.5
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A744182B-7F49-4AB5-87EE-E953B99AA481}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0943DEE2-89AE-4BDB-8086-D5E5E58091A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToysOnContainers.ProductApi", "src\Services\ToysOnContainers.ProductApi\ToysOnContainers.ProductApi.csproj", "{D05F6506-DB41-47F1-A405-D3591933B8BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D05F6506-DB41-47F1-A405-D3591933B8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D05F6506-DB41-47F1-A405-D3591933B8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D05F6506-DB41-47F1-A405-D3591933B8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D05F6506-DB41-47F1-A405-D3591933B8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0943DEE2-89AE-4BDB-8086-D5E5E58091A3} = {A744182B-7F49-4AB5-87EE-E953B99AA481}
+		{D05F6506-DB41-47F1-A405-D3591933B8BE} = {0943DEE2-89AE-4BDB-8086-D5E5E58091A3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3576E6C5-8C72-4E7E-B30E-F19A23512F8C}
+	EndGlobalSection
+EndGlobal
